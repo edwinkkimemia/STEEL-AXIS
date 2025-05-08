@@ -1,7 +1,7 @@
 /* CSS Variables for Colors */
 :root {
-    --primary: #1B4F72;
-    --secondary: #2C3E50;
+    --primary: #226ED9;
+    --secondary: #F28C39;
 }
 
 /* Existing Custom Styles */
@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://readdy.ai/api/search-image?query=industrial%20engineering%20factory%20with%20steel%20structures%2C%20machinery%2C%20and%20workers%20in%20safety%20gear%2C%20professional%20lighting%2C%20high-quality%20photography%2C%20realistic%2C%20detailed%20industrial%20environment%20with%20pipes%20and%20metal%20frameworks%2C%20clean%20and%20organized%20workspace&width=1920&height=1080&seq=1&orientation=landscape');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/worker2.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -159,8 +159,9 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .logo {
-    font-size: 1.875rem;
-    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    font-family: "Tw Cen MT", sans-serif;
+    font-weight: bold;
     color: var(--primary);
     text-decoration: none;
 }
@@ -274,7 +275,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .quote-button:hover {
-    background-color: rgba(27, 79, 114, 0.9);
+    background-color: var(--secondary);
 }
 
 .mobile-menu-button-container {
@@ -357,7 +358,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .quote-button-mobile:hover {
-    background-color: rgba(27, 79, 114, 0.9);
+    background-color: var(--secondary);
 }
 
 /* Hero Section */
@@ -1285,7 +1286,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 /* Footer */
 .footer {
-    background-color: var(--secondary);
+    background-color: var(--primary);
     color: white;
     padding-top: 4rem;
     padding-bottom: 2rem;
