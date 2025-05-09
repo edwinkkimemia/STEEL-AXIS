@@ -44,7 +44,7 @@ button {
 
 /* Topbar */
 .topbar {
-    background-color: var(--primary); /* Updated to var(--primary) from var(--bg-white) */
+    background-color: var(--primary);
     padding: 0.5rem 0;
     border-bottom: 1px solid #E5E7EB;
 }
@@ -75,7 +75,7 @@ button {
 }
 
 .social-links a:hover {
-    color: var(--primary); /* Retained original hover color instead of var(--text-gray) */
+    color: var(--primary);
 }
 
 /* Header */
@@ -106,8 +106,8 @@ button {
     align-items: center;
     gap: 0.5rem;
     font-size: 2rem;
-    font-family: 'Pacifico', cursive; /* Retained original font instead of Arial, Helvetica, sans-serif */
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; /* Updated to Montserrat */
+    font-weight: 700; /* Bold for formal and modern look */
     color: var(--primary);
     text-decoration: none;
 }
@@ -1508,7 +1508,8 @@ button {
     align-items: center;
     gap: 0.5rem;
     font-size: 1.875rem;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Montserrat', sans-serif; /* Updated to Montserrat */
+    font-weight: 700; /* Bold for formal and modern look */
     color: var(--bg-white);
     margin-bottom: 1.5rem;
 }

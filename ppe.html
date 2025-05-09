@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <!-- Header & Navigation -->
@@ -467,35 +468,6 @@
             <span class="whatsapp-tooltip">Chat with us on WhatsApp</span>
         </a>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Mobile menu toggle
-            const mobileMenuButton = document.getElementById('mobile-menu-button');
-            const mobileMenu = document.getElementById('mobile-menu');
-            
-            mobileMenuButton.addEventListener('click', function() {
-                mobileMenu.classList.toggle('hidden');
-            });
-
-            // Contact form submission
-            const contactForm = document.getElementById('contact-form');
-            
-            contactForm.addEventListener('submit', function(e) {
-                e.preventDefault();
-                alert('Thank you for your message! We will respond as soon as possible.');
-                contactForm.reset();
-            });
-        });
-        // WhatsApp button hover effect
-            const whatsappButton = document.querySelector('.whatsapp-button');
-            whatsappButton.addEventListener('mouseenter', function() {
-                this.querySelector('.whatsapp-tooltip').style.opacity = '1';
-                this.querySelector('.whatsapp-tooltip').style.visibility = 'visible';
-            });
-            whatsappButton.addEventListener('mouseleave', function() {
-                this.querySelector('.whatsapp-tooltip').style.opacity = '0';
-                this.querySelector('.whatsapp-tooltip').style.visibility = 'hidden';
-            });
-    </script>
+   
 </body>
 </html>
