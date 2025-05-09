@@ -461,6 +461,11 @@
             </div>
         </div>
     </footer>
+    <!-- Floating WhatsApp Button -->
+        <a href="https://wa.me/254748411810?text=Hello%20Steel%20Axis,%20I%20would%20like%20to%20inquire%20about%20your%20services!" class="whatsapp-button" target="_blank">
+            <i class="ri-whatsapp-fill ri-2x"></i>
+            <span class="whatsapp-tooltip">Chat with us on WhatsApp</span>
+        </a>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -481,6 +486,16 @@
                 contactForm.reset();
             });
         });
+        // WhatsApp button hover effect
+            const whatsappButton = document.querySelector('.whatsapp-button');
+            whatsappButton.addEventListener('mouseenter', function() {
+                this.querySelector('.whatsapp-tooltip').style.opacity = '1';
+                this.querySelector('.whatsapp-tooltip').style.visibility = 'visible';
+            });
+            whatsappButton.addEventListener('mouseleave', function() {
+                this.querySelector('.whatsapp-tooltip').style.opacity = '0';
+                this.querySelector('.whatsapp-tooltip').style.visibility = 'hidden';
+            });
     </script>
 </body>
 </html>
