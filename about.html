@@ -3,7 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Steel Axis Engineering Ltd - Home</title>
+    <meta name="description" content="Learn about Steel Axis Engineering Ltd, a leading engineering company in Nairobi, Kenya, providing innovative solutions across East Africa since 2017. Discover our mission, team, values, and history.">
+    <meta name="keywords" content="about Steel Axis Engineering, engineering company Kenya, Nairobi engineering services, East Africa engineering solutions">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Steel Axis Engineering Ltd">
+    <!-- Open Graph for Social Sharing -->
+    <meta property="og:title" content="About Steel Axis Engineering Ltd | Innovative Solutions in East Africa">
+    <meta property="og:description" content="Discover Steel Axis Engineering Ltd, a Nairobi-based engineering company offering innovative solutions across East and Central Africa since 2017. Learn about our mission, team, and history.">
+    <meta property="og:image" content="images/mgf.png">
+    <meta property="og:url" content="https://www.steelaxisltd.com/about.html">
+    <meta property="og:type" content="website">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="About Steel Axis Engineering Ltd | Innovative Solutions in East Africa">
+    <meta name="twitter:description" content="Discover Steel Axis Engineering Ltd, a Nairobi-based engineering company offering innovative solutions across East and Central Africa since 2017. Learn about our mission, team, and history.">
+    <meta name="twitter:image" content="images/mgf.png">
+    <title>About Steel Axis Engineering Ltd | Innovative Solutions in East Africa</title>
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@300;400;600&display=swap" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" as="style">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
@@ -11,42 +30,79 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Steel Axis Engineering Ltd",
+        "url": "https://www.steelaxisltd.com",
+        "logo": "https://www.steelaxisltd.com/images/logo.png",
+        "description": "Steel Axis Engineering Ltd, based in Nairobi, Kenya since 2017, provides innovative engineering solutions across East and Central Africa, specializing in mechanical engineering, electrical solutions, and industrial automation.",
+        "foundingDate": "2017",
+        "founders": [
+            {
+                "@type": "Person",
+                "name": "John Matthews"
+            }
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+254748411810",
+            "contactType": "customer service",
+            "areaServed": ["KE", "UG", "TZ", "RW", "BI"],
+            "availableLanguage": "English"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "P.O. Box 254748411810-0200",
+            "addressLocality": "Nairobi",
+            "addressCountry": "KE"
+        },
+        "sameAs": [
+            "https://www.linkedin.com/company/steel-axis-engineering-ltd",
+            "https://twitter.com/steelaxisltd",
+            "https://www.facebook.com/steelaxisltd",
+            "https://www.instagram.com/steelaxisltd"
+        ]
+    }
+    </script>
 </head>
 <body>
     <!-- Header & Navigation -->
     <header class="header">
         <div class="topbar d-flex align-items-center">
             <div class="container d-flex justify-content-center justify-content-md-between">
-              <div class="contact-info d-flex align-items-center">
-                <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:info@steelaxisltd.com">info@steelaxisltd.com</a></i>
-                <i class="bi bi-phone d-flex align-items-center ms-4"><span>+254 748 411 810</span></i>
-              </div>
-              <div class="social-links d-none d-md-flex align-items-center">
-                <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-              </div>
+                <div class="contact-info d-flex align-items-center">
+                    <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:info@steelaxisltd.com">info@steelaxisltd.com</a></i>
+                    <i class="bi bi-phone d-flex align-items-center ms-4"><span><a href="tel:+254748411810">+254 748 411 810</a></span></i>
+                </div>
+                <div class="social-links d-none d-md-flex align-items-center">
+                    <a href="#" class="twitter" aria-label="Follow us on Twitter"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="facebook" aria-label="Follow us on Facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="instagram" aria-label="Follow us on Instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="linkedin" aria-label="Follow us on LinkedIn"><i class="bi bi-linkedin"></i></a>
+                </div>
             </div>
         </div>
         <div class="container">
             <div class="header-content">
                 <div class="logo-container">
                     <a href="index.html" class="logo plus">
-                        <img src="images/logo.png" alt="steel axis logo" height="50px"> Steel Axis
+                        <img src="images/logo.png" alt="Steel Axis Engineering Ltd Logo" height="50px"> Steel Axis
                     </a>
                 </div>
                 
                 <!-- Desktop Navigation -->
-                <nav class="nav-desktop">
+                <nav class="nav-desktop" aria-label="Main navigation">
                     <div class="nav-item">
-                        <button class="nav-button">
+                        <button class="nav-button" aria-expanded="false" aria-controls="engineering-dropdown">
                             Engineering Services
                             <div class="icon-container">
                                 <i class="ri-arrow-down-s-line"></i>
                             </div>
                         </button>
-                        <div class="dropdown">
+                        <div class="dropdown" id="engineering-dropdown">
                             <div class="dropdown-content">
                                 <a href="engineering.html#mechanical-installations" class="dropdown-item">Mechanical Installations</a>
                                 <a href="engineering.html#electrical-solutions" class="dropdown-item">Electrical Solutions</a>
@@ -55,13 +111,13 @@
                         </div>
                     </div>
                     <div class="nav-item">
-                        <button class="nav-button">
+                        <button class="nav-button" aria-expanded="false" aria-controls="fabrication-dropdown">
                             Fabrication
                             <div class="icon-container">
                                 <i class="ri-arrow-down-s-line"></i>
                             </div>
                         </button>
-                        <div class="dropdown">
+                        <div class="dropdown" id="fabrication-dropdown">
                             <div class="dropdown-content">
                                 <a href="fabrication.html#steel-fabrication" class="dropdown-item">Steel Fabrication</a>
                                 <a href="fabrication.html#conveying-systems" class="dropdown-item">Conveying Systems</a>
@@ -70,13 +126,13 @@
                         </div>
                     </div>
                     <div class="nav-item">
-                        <button class="nav-button">
+                        <button class="nav-button" aria-expanded="false" aria-controls="products-dropdown">
                             Products
                             <div class="icon-container">
                                 <i class="ri-arrow-down-s-line"></i>
                             </div>
                         </button>
-                        <div class="dropdown">
+                        <div class="dropdown" id="products-dropdown">
                             <div class="dropdown-content">
                                 <a href="products.html#feed-processing-machines" class="dropdown-item">Feed Processing Machines</a>
                                 <a href="ppe.html" class="dropdown-item">Personal Protective Equipment</a>
@@ -86,7 +142,7 @@
                     </div>
                     <a href="index.html#projects" class="nav-link">Projects</a>
                     <a href="about.html" class="nav-link">About Us</a>
-                    <a href="index.html#contact" class="nav-link">Contact</a>
+                    <a href="#contact" class="nav-link">Contact</a>
                 </nav>
                 
                 <div class="quote-button-container">
@@ -95,7 +151,7 @@
                 
                 <!-- Mobile menu button -->
                 <div class="mobile-menu-button-container">
-                    <button id="mobile-menu-button" class="mobile-menu-button">
+                    <button id="mobile-menu-button" class="mobile-menu-button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle mobile menu">
                         <div class="icon-container-large">
                             <i class="ri-menu-line ri-lg"></i>
                         </div>
@@ -104,296 +160,496 @@
             </div>
             
             <!-- Mobile Navigation -->
-            <div id="mobile-menu" class="nav-mobile">
+            <nav id="mobile-menu" class="nav-mobile hidden" aria-label="Mobile navigation">
                 <a href="engineering.html" class="nav-mobile-link">Engineering Services</a>
                 <a href="fabrication.html" class="nav-mobile-link">Fabrication</a>
                 <a href="products.html" class="nav-mobile-link">Products</a>
-                <a href="#projects" class="nav-mobile-link">Projects</a>
+                <a href="index.html#projects" class="nav-mobile-link">Projects</a>
                 <a href="about.html" class="nav-mobile-link">About Us</a>
                 <a href="#contact" class="nav-mobile-link">Contact</a>
                 <div class="nav-mobile-quote">
                     <a href="#quote" class="quote-button-mobile">Get a Quote</a>
                 </div>
-            </div>
+            </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero-section" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/mgf.png');">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">About Steel Axis Engineering</h1>
-                <p class="hero-description">Since 2017, Steel Axis Engineering Ltd has been a leader in innovative engineering solutions across East and Central Africa, delivering excellence in mechanical, electrical, and automation services from our base in Nairobi, Kenya.</p>
-                <div class="hero-buttons">
-                    <a href="index.html#contact" class="hero-button-contact">Get in Touch</a>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/mgf.png');">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">About Steel Axis Engineering</h1>
+                    <p class="hero-description">Since 2017, Steel Axis Engineering Ltd has been a leader in innovative engineering solutions across East and Central Africa, delivering excellence in mechanical, electrical, and automation services from our base in Nairobi, Kenya.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="hero-button-contact">Get in Touch</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Company Overview -->
-    <section class="overview-section">
-        <div class="container">
-            <div class="overview-content">
-                <div class="overview-text">
-                    <h2 class="section-title">Who We Are</h2>
-                    <p class="section-description">Steel Axis Engineering Ltd., established in 2017 and headquartered in Nairobi, Kenya, is a dynamic, multi-disciplinary engineering company serving industrial clients across East and Central Africa. We specialize in mechanical engineering, electrical solutions, industrial automation, power systems, turnkey projects, feed processing machines, and personal protective equipment (PPE). Our comprehensive services include feasibility studies, design, installation, commissioning, and maintenance, catering to sectors like manufacturing, food processing, construction, and energy. We operate under ISO 3834 Part 2 standards, prioritizing safety, quality, and sustainability in every project.</p>
-                    <div class="overview-stats">
-                        <div class="stat-card">
-                            <div class="stat-value">7+</div>
-                            <p class="stat-description">Years of Experience</p>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-value">200+</div>
-                            <p class="stat-description">Projects Completed</p>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-value">30+</div>
-                            <p class="stat-description">Expert Engineers</p>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-value">5+</div>
-                            <p class="stat-description">Countries Served</p>
+        <!-- Company Overview -->
+        <section class="overview-section">
+            <div class="container">
+                <div class="overview-content">
+                    <div class="overview-text">
+                        <h2 class="section-title">Who We Are</h2>
+                        <p class="section-description">Steel Axis Engineering Ltd., established in 2017 and headquartered in Nairobi, Kenya, is a dynamic, multi-disciplinary engineering company serving industrial clients across East and Central Africa. We specialize in mechanical engineering, electrical solutions, industrial automation, power systems, turnkey projects, feed processing machines, and personal protective equipment (PPE). Our comprehensive services include feasibility studies, design, installation, commissioning, and maintenance, catering to sectors like manufacturing, food processing, construction, and energy. We operate under ISO 3834 Part 2 standards, prioritizing safety, quality, and sustainability in every project.</p>
+                        <div class="overview-stats">
+                            <div class="stat-card">
+                                <div class="stat-value">7+</div>
+                                <p class="stat-description">Years of Experience</p>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-value">200+</div>
+                                <p class="stat-description">Projects Completed</p>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-value">30+</div>
+                                <p class="stat-description">Expert Engineers</p>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-value">5+</div>
+                                <p class="stat-description">Countries Served</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="overview-image">
-                    <img src="images/operation.png" alt="Steel Axis Team" class="sustainability-img">
+                    <div class="overview-image">
+                        <img src="images/operation.png" alt="Steel Axis Engineering Team in Nairobi" class="sustainability-img" loading="lazy">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Mission & Vision -->
-    <section class="mission-section">
-        <div class="container">
-            <div class="mission-header">
-                <h2 class="section-title">Our Mission & Vision</h2>
-                <p class="section-description">We are driven by a commitment to innovation, excellence, and sustainability, aiming to transform Africa's industrial landscape.</p>
-            </div>
-            <div class="mission-grid">
-                <div class="mission-card">
-                    <div class="mission-icon">
-                        <div class="service-icon-inner">
-                            <i class="ri-lightbulb-flash-fill ri-lg"></i>
-                        </div>
-                    </div>
-                    <h3 class="mission-title">Our Mission</h3>
-                    <p class="mission-description">To provide comprehensive, innovative, and high-quality engineering solutions that enable our clients to achieve operational efficiency, technical excellence, and sustainable growth across Africa.</p>
+        <!-- Mission & Vision -->
+        <section class="mission-section">
+            <div class="container">
+                <div class="mission-header">
+                    <h2 class="section-title">Our Mission & Vision</h2>
+                    <p class="section-description">We are driven by a commitment to innovation, excellence, and sustainability, aiming to transform Africa's industrial landscape.</p>
                 </div>
-                <div class="mission-card">
-                    <div class="mission-icon">
-                        <div class="service-icon-inner">
-                            <i class="ri-eye-fill ri-lg"></i>
+                <div class="mission-grid">
+                    <div class="mission-card">
+                        <div class="mission-icon">
+                            <div class="service-icon-inner">
+                                <i class="ri-lightbulb-flash-fill ri-lg"></i>
+                            </div>
                         </div>
+                        <h3 class="mission-title">Our Mission</h3>
+                        <p class="mission-description">To provide comprehensive, innovative, and high-quality engineering solutions that enable our clients to achieve operational efficiency, technical excellence, and sustainable growth across Africa.</p>
                     </div>
-                    <h3 class="mission-title">Our Vision</h3>
-                    <p class="mission-description">To be a continental leader in engineering, driving transformation, innovation, and excellence across Africa's manufacturing, construction, energy, and infrastructure sectors.</p>
+                    <div class="mission-card">
+                        <div class="mission-icon">
+                            <div class="service-icon-inner">
+                                <i class="ri-eye-fill ri-lg"></i>
+                            </div>
+                        </div>
+                        <h3 class="mission-title">Our Vision</h3>
+                        <p class="mission-description">To be a continental leader in engineering, driving transformation, innovation, and excellence across Africa's manufacturing, construction, energy, and infrastructure sectors.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Our Team -->
-    <section class="team-section">
-        <div class="container">
-            <div class="team-header">
-                <h2 class="section-title">Meet Our Team</h2>
-                <p class="section-description">Our dedicated team of engineers, consultants, and professionals brings expertise and passion to every project.</p>
+        <!-- Our Team -->
+        <section class="team-section">
+            <div class="container">
+                <div class="team-header">
+                    <h2 class="section-title">Meet Our Team</h2>
+                    <p class="section-description">Our dedicated team of engineers, consultants, and professionals brings expertise and passion to every project in East Africa.</p>
+                </div>
+                <div class="team-grid">
+                    <div class="team-card">
+                        <img src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20senior%20male%20engineer%2C%20business%20attire%2C%20neutral%20background%2C%20high-quality%20portrait%2C%20realistic%2C%20detailed%20facial%20features&width=300&height=300&seq=15&orientation=squarish" alt="John Matthews, CEO & Founder of Steel Axis Engineering" class="team-image" loading="lazy">
+                        <h3 class="team-name">John Matthews</h3>
+                        <p class="team-role">CEO & Founder</p>
+                        <p class="team-bio">With over 15 years in engineering, John founded Steel Axis in Nairobi, driving innovation across Africa.</p>
+                    </div>
+                    <div class="team-card">
+                        <img src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20female%20engineer%2C%20business%20attire%2C%20neutral%20background%2C%20high-quality%20portrait%2C%20realistic%2C%20detailed%20facial%20features&width=300&height=300&seq=16&orientation=squarish" alt="Emma Thompson, Chief Engineer at Steel Axis Engineering" class="team-image" loading="lazy">
+                        <h3 class="team-name">Emma Thompson</h3>
+                        <p class="team-role">Chief Engineer</p>
+                        <p class="team-bio">Emma oversees technical projects, ensuring precision and compliance with ISO standards.</p>
+                    </div>
+                    <div class="team-card">
+                        <img src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20male%20safety%20consultant%2C%20business%20attire%2C%20neutral%20background%2C%20high-quality%20portrait%2C%20realistic%2C%20detailed%20facial%20features&width=300&height=300&seq=17&orientation=squarish" alt="Michael Patel, Safety Consultant at Steel Axis Engineering" class="team-image" loading="lazy">
+                        <h3 class="team-name">Michael Patel</h3>
+                        <p class="team-role">Safety Consultant</p>
+                        <p class="team-bio">Michael ensures our projects meet rigorous safety regulations across East and Central Africa.</p>
+                    </div>
+                </div>
             </div>
-            <div class="team-grid">
-                <div class="team-card">
-                    <img src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20senior%20male%20engineer%2C%20business%20attire%2C%20neutral%20background%2C%20high-quality%20portrait%2C%20realistic%2C%20detailed%20facial%20features&width=300&height=300&seq=15&orientation=squarish" alt="John Matthews" class="team-image">
-                    <h3 class="team-name">John Matthews</h3>
-                    <p class="team-role">CEO & Founder</p>
-                    <p class="team-bio">With over 15 years in engineering, John founded Steel Axis in Nairobi, driving innovation across Africa.</p>
-                </div>
-                <div class="team-card">
-                    <img src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20female%20engineer%2C%20business%20attire%2C%20neutral%20background%2C%20high-quality%20portrait%2C%20realistic%2C%20detailed%20facial%20features&width=300&height=300&seq=16&orientation=squarish" alt="Emma Thompson" class="team-image">
-                    <h3 class="team-name">Emma Thompson</h3>
-                    <p class="team-role">Chief Engineer</p>
-                    <p class="team-bio">Emma oversees technical projects, ensuring precision and compliance with ISO standards.</p>
-                </div>
-                <div class="team-card">
-                    <img src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20male%20safety%20consultant%2C%20business%20attire%2C%20neutral%20background%2C%20high-quality%20portrait%2C%20realistic%2C%20detailed%20facial%20features&width=300&height=300&seq=17&orientation=squarish" alt="Michael Patel" class="team-image">
-                    <h3 class="team-name">Michael Patel</h3>
-                    <p class="team-role">Safety Consultant</p>
-                    <p class="team-bio">Michael ensures our projects meet rigorous safety regulations across East and Central Africa.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Core Values -->
-    <section class="values-section">
-        <div class="container">
-            <div class="values-header">
-                <h2 class="section-title">Our Core Values</h2>
-                <p class="section-description">Our values guide our operations, ensuring we deliver exceptional service while upholding the highest standards.</p>
+        <!-- Core Values -->
+        <section class="values-section">
+            <div class="container">
+                <div class="values-header">
+                    <h2 class="section-title">Our Core Values</h2>
+                    <p class="section-description">Our values guide our operations, ensuring we deliver exceptional service while upholding the highest standards in Kenya and beyond.</p>
+                </div>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <div class="service-icon-inner">
+                                <i class="ri-hand-heart-fill ri-lg"></i>
+                            </div>
+                        </div>
+                        <h3 class="value-title">Integrity</h3>
+                        <p class="value-description">We operate with honesty and transparency, building trust with our clients and partners.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <div class="service-icon-inner">
+                                <i class="ri-lightbulb-fill ri-lg"></i>
+                            </div>
+                        </div>
+                        <h3 class="value-title">Innovation</h3>
+                        <p class="value-description">We embrace cutting-edge technology to deliver smart, future-proof solutions.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <div class="service-icon-inner">
+                                <i class="ri-shield-fill ri-lg"></i>
+                            </div>
+                        </div>
+                        <h3 class="value-title">Safety First</h3>
+                        <p class="value-description">We prioritize safety in all operations, protecting our team, clients, and communities.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <div class="service-icon-inner">
+                                <i class="ri-user-heart-fill ri-lg"></i>
+                            </div>
+                        </div>
+                        <h3 class="value-title">Client-Centric Focus</h3>
+                        <p class="value-description">We tailor our services to meet client needs, fostering long-term partnerships.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <div class="service-icon-inner">
+                                <i class="ri-star-fill ri-lg"></i>
+                            </div>
+                        </div>
+                        <h3 class="value-title">Excellence</h3>
+                        <p class="value-description">We strive for the highest quality in every project, exceeding expectations.</p>
+                    </div>
+                </div>
             </div>
-            <div class="values-grid">
-                <div class="value-card">
-                    <div class="value-icon">
-                        <div class="service-icon-inner">
-                            <i class="ri-hand-heart-fill ri-lg"></i>
-                        </div>
-                    </div>
-                    <h3 class="value-title">Integrity</h3>
-                    <p class="value-description">We operate with honesty and transparency, building trust with our clients and partners.</p>
-                </div>
-                <div class="value-card">
-                    <div class="value-icon">
-                        <div class="service-icon-inner">
-                            <i class="ri-lightbulb-fill ri-lg"></i>
-                        </div>
-                    </div>
-                    <h3 class="value-title">Innovation</h3>
-                    <p class="value-description">We embrace cutting-edge technology to deliver smart, future-proof solutions.</p>
-                </div>
-                <div class="value-card">
-                    <div class="value-icon">
-                        <div class="service-icon-inner">
-                            <i class="ri-shield-fill ri-lg"></i>
-                        </div>
-                    </div>
-                    <h3 class="value-title">Safety First</h3>
-                    <p class="value-description">We prioritize safety in all operations, protecting our team, clients, and communities.</p>
-                </div>
-                <div class="value-card">
-                    <div class="value-icon">
-                        <div class="service-icon-inner">
-                            <i class="ri-user-heart-fill ri-lg"></i>
-                        </div>
-                    </div>
-                    <h3 class="value-title">Client-Centric Focus</h3>
-                    <p class="value-description">We tailor our services to meet client needs, fostering long-term partnerships.</p>
-                </div>
-                <div class="value-card">
-                    <div class="value-icon">
-                        <div class="service-icon-inner">
-                            <i class="ri-star-fill ri-lg"></i>
-                        </div>
-                    </div>
-                    <h3 class="value-title">Excellence</h3>
-                    <p class="value-description">We strive for the highest quality in every project, exceeding expectations.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Why Choose Us -->
-    <section class="why-choose-us-section">
-        <div class="container">
-            <div class="why-choose-us-header">
-                <h2 class="section-title">Why Choose Us</h2>
-                <p class="section-description">Discover what sets Steel Axis Engineering Ltd apart as your trusted engineering partner in East and Central Africa.</p>
+        <!-- Why Choose Us -->
+        <section class="why-choose-us-section">
+            <div class="container">
+                <div class="why-choose-us-header">
+                    <h2 class="section-title">Why Choose Us</h2>
+                    <p class="section-description">Discover what sets Steel Axis Engineering Ltd apart as your trusted engineering partner in East and Central Africa.</p>
+                </div>
+                <div class="why-choose-us-grid">
+                    <div class="reason-card">
+                        <div class="reason-icon">
+                            <div class="service-icon-inner">
+                                <i class="ri-award-fill ri-lg"></i>
+                            </div>
+                        </div>
+                        <h3 class="reason-title">Proven Track Record</h3>
+                        <p class="reason-description">Since 2017, we've delivered reliable engineering solutions across the region.</p>
+                    </div>
+                    <div class="reason-card">
+                        <div class="reason-icon">
+                            <div class="service-icon-inner">
+                                <i class="ri-tools-fill ri-lg"></i>
+                            </div>
+                        </div>
+                        <h3 class="reason-title">Comprehensive Services</h3>
+                        <p class="reason-description">From automation to PPE, we offer a one-stop solution for all industrial needs.</p>
+                    </div>
+                    <div class="reason-card">
+                        <div class="reason-icon">
+                            <div class="service-icon-inner">
+                                <i class="ri-team-fill ri-lg"></i>
+                            </div>
+                        </div>
+                        <h3 class="reason-title">Skilled Team</h3>
+                        <p class="reason-description">Our certified engineers bring expertise to every project.</p>
+                    </div>
+                    <div class="reason-card">
+                        <div class="reason-icon">
+                            <div class="service-icon-inner">
+                                <i class="ri-verified-badge-fill ri-lg"></i>
+                            </div>
+                        </div>
+                        <h3 class="reason-title">Quality Assurance</h3>
+                        <p class="reason-description">We adhere to ISO 3834 Part 2 standards for precision and quality.</p>
+                    </div>
+                    <div class="reason-card">
+                        <div class="reason-icon">
+                            <div class="service-icon-inner">
+                                <i class="ri-leaf-fill ri-lg"></i>
+                            </div>
+                        </div>
+                        <h3 class="reason-title">Sustainability</h3>
+                        <p class="reason-description">We implement eco-friendly practices in all our projects.</p>
+                    </div>
+                    <div class="reason-card">
+                        <div class="reason-icon">
+                            <div class="service-icon-inner">
+                                <i class="ri-truck-fill ri-lg"></i>
+                            </div>
+                        </div>
+                        <h3 class="reason-title">Nationwide Reach</h3>
+                        <p class="reason-description">Our mobile teams ensure rapid response across the region.</p>
+                    </div>
+                </div>
             </div>
-            <div class="why-choose-us-grid">
-                <div class="reason-card">
-                    <div class="reason-icon">
-                        <div class="service-icon-inner">
-                            <i class="ri-award-fill ri-lg"></i>
-                        </div>
-                    </div>
-                    <h3 class="reason-title">Proven Track Record</h3>
-                    <p class="reason-description">Since 2017, we've delivered reliable engineering solutions across the region.</p>
-                </div>
-                <div class="reason-card">
-                    <div class="reason-icon">
-                        <div class="service-icon-inner">
-                            <i class="ri-tools-fill ri-lg"></i>
-                        </div>
-                    </div>
-                    <h3 class="reason-title">Comprehensive Services</h3>
-                    <p class="reason-description">From automation to PPE, we offer a one-stop solution for all industrial needs.</p>
-                </div>
-                <div class="reason-card">
-                    <div class="reason-icon">
-                        <div class="service-icon-inner">
-                            <i class="ri-team-fill ri-lg"></i>
-                        </div>
-                    </div>
-                    <h3 class="reason-title">Skilled Team</h3>
-                    <p class="reason-description">Our certified engineers bring expertise to every project.</p>
-                </div>
-                <div class="reason-card">
-                    <div class="reason-icon">
-                        <div class="service-icon-inner">
-                            <i class="ri-verified-badge-fill ri-lg"></i>
-                        </div>
-                    </div>
-                    <h3 class="reason-title">Quality Assurance</h3>
-                    <p class="reason-description">We adhere to ISO 3834 Part 2 standards for precision and quality.</p>
-                </div>
-                <div class="reason-card">
-                    <div class="reason-icon">
-                        <div class="service-icon-inner">
-                            <i class="ri-leaf-fill ri-lg"></i>
-                        </div>
-                    </div>
-                    <h3 class="reason-title">Sustainability</h3>
-                    <p class="reason-description">We implement eco-friendly practices in all our projects.</p>
-                </div>
-                <div class="reason-card">
-                    <div class="reason-icon">
-                        <div class="service-icon-inner">
-                            <i class="ri-truck-fill ri-lg"></i>
-                        </div>
-                    </div>
-                    <h3 class="reason-title">Nationwide Reach</h3>
-                    <p class="reason-description">Our mobile teams ensure rapid response across the region.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- History -->
-    <section class="history-section">
-        <div class="container">
-            <div class="history-header">
-                <h2 class="section-title">Our History</h2>
-                <p class="section-description">From our founding in 2017 to becoming a trusted name in African engineering, explore our journey.</p>
+        <!-- History -->
+        <section class="history-section">
+            <div class="container">
+                <div class="history-header">
+                    <h2 class="section-title">Our History</h2>
+                    <p class="section-description">From our founding in 2017 to becoming a trusted name in African engineering, explore our journey.</p>
+                </div>
+                <div class="history-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="ri-building-fill"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-year">2017</h3>
+                            <p class="timeline-description">Steel Axis Engineering Ltd was founded in Nairobi, Kenya, as a structural steel fabricator.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="ri-tools-fill"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-year">2018</h3>
+                            <p class="timeline-description">Expanded into mechanical installations, piping works, and electrical solutions.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="ri-shield-check-fill"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-year">2020</h3>
+                            <p class="timeline-description">Introduced PPE division and achieved ISO 3834 Part 2 certification for fabrication.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="ri-global-fill"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-year">2023</h3>
+                            <p class="timeline-description">Expanded services to East and Central Africa, delivering over 200 projects.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="history-timeline">
-                <div class="timeline-item">
-                    <div class="timeline-icon">
-                        <i class="ri-building-fill"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3 class="timeline-year">2017</h3>
-                        <p class="timeline-description">Steel Axis Engineering Ltd was founded in Nairobi, Kenya, as a structural steel fabricator.</p>
-                    </div>
+        </section>
+
+        <!-- Get a Quote Section -->
+        <section id="quote" class="quote-section">
+            <div class="container">
+                <div class="quote-container">
+                    <header class="quote-header">
+                        <h2 class="section-title">Get a Free Quote Today</h2>
+                        <p class="section-description">Fill out the form below to receive a customized quote for your engineering needs in East Africa within 24 hours.</p>
+                    </header>
+                    
+                    <form id="quote-form" class="quote-form">
+                        <div class="quote-form-grid">
+                            <div>
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" id="name" name="name" class="form-input" placeholder="John Smith" required aria-required="true">
+                            </div>
+                            <div>
+                                <label for="company" class="form-label">Company Name</label>
+                                <input type="text" id="company" name="company" class="form-input" placeholder="Your Company Ltd." required aria-required="true">
+                            </div>
+                            <div>
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" id="email" name="email" class="form-input" placeholder="john@example.com" required aria-required="true">
+                            </div>
+                            <div>
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-input" placeholder="+254 748 411 810" required aria-required="true">
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label class="form-label">Service Type</label>
+                            <div class="service-checkboxes">
+                                <div class="checkbox-item">
+                                    <div id="engineering-services-checkbox" class="custom-checkbox" data-checked="false" role="checkbox" aria-checked="false"></div>
+                                    <label for="engineering-services-checkbox" class="checkbox-label">Engineering Services</label>
+                                </div>
+                                <div class="checkbox-item">
+                                    <div id="fabrication-checkbox" class="custom-checkbox" data-checked="false" role="checkbox" aria-checked="false"></div>
+                                    <label for="fabrication-checkbox" class="checkbox-label">Fabrication</label>
+                                </div>
+                                <div class="checkbox-item">
+                                    <div id="products-checkbox" class="custom-checkbox" data-checked="false" role="checkbox" aria-checked="false"></div>
+                                    <label for="products-checkbox" class="checkbox-label">Products</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label for="project-details" class="form-label">Project Details</label>
+                            <textarea id="project-details" name="project-details" rows="4" class="form-textarea" placeholder="Please provide details about your project requirements..." required aria-required="true"></textarea>
+                        </div>
+                        
+                        <div class="terms-checkbox">
+                            <div id="terms-checkbox" class="custom-checkbox" data-checked="false" role="checkbox" aria-checked="false"></div>
+                            <label for="terms-checkbox" class="checkbox-label">I agree to the <a href="#" class="terms-link">Terms & Conditions</a> and <a href="#" class="terms-link">Privacy Policy</a></label>
+                        </div>
+                        
+                        <div class="form-submit">
+                            <button type="submit" class="submit-button">Submit Your Request</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-icon">
-                        <i class="ri-tools-fill"></i>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <header class="contact-header">
+                    <h2 class="section-title">Contact Us</h2>
+                    <p class="section-description">Have questions about Steel Axis Engineering Ltd? Our Nairobi-based team is ready to assist you with your industrial needs.</p>
+                </header>
+                
+                <div class="contact-grid">
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <div class="contact-info-card">
+                            <h3 class="contact-info-title">Get In Touch</h3>
+                            
+                            <div class="contact-info-items">
+                                <div class="contact-info-item">
+                                    <div class="contact-icon">
+                                        <div class="icon-container">
+                                            <i class="ri-map-pin-line"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h4 class="contact-info-subtitle">Our Location</h4>
+                                        <p class="contact-info-text">P.O. Box 254748411810-0200, Nairobi, Kenya</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-info-item">
+                                    <div class="contact-icon">
+                                        <div class="icon-container">
+                                            <i class="ri-phone-line"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h4 class="contact-info-subtitle">Phone Number</h4>
+                                        <p class="contact-info-text"><a href="tel:+254748411810">+254 748 411 810</a></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-info-item">
+                                    <div class="contact-icon">
+                                        <div class="icon-container">
+                                            <i class="ri-mail-line"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h4 class="contact-info-subtitle">Email Address</h4>
+                                        <p class="contact-info-text"><a href="mailto:info@steelaxisltd.com">info@steelaxisltd.com</a></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-info-item">
+                                    <div class="contact-icon">
+                                        <div class="icon-container">
+                                            <i class="ri-time-line"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h4 class="contact-info-subtitle">Working Hours</h4>
+                                        <p class="contact-info-text">Monday - Friday: 8:00 AM - 5:00 PM<br>Saturday: 9:00 AM - 1:00 PM<br>Sunday: Closed</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-social">
+                                <h4 class="contact-social-title">Follow Us</h4>
+                                <div class="social-links">
+                                    <a href="#" class="social-link" aria-label="Follow us on LinkedIn">
+                                        <div class="icon-container">
+                                            <i class="ri-linkedin-fill"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="social-link" aria-label="Follow us on Twitter">
+                                        <div class="icon-container">
+                                            <i class="ri-twitter-x-fill"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="social-link" aria-label="Follow us on Facebook">
+                                        <div class="icon-container">
+                                            <i class="ri-facebook-fill"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="social-link" aria-label="Follow us on Instagram">
+                                        <div class="icon-container">
+                                            <i class="ri-instagram-fill"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="timeline-content">
-                        <h3 class="timeline-year">2018</h3>
-                        <p class="timeline-description">Expanded into mechanical installations, piping works, and electrical solutions.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-icon">
-                        <i class="ri-shield-check-fill"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3 class="timeline-year">2020</h3>
-                        <p class="timeline-description">Introduced PPE division and achieved ISO 3834 Part 2 certification for fabrication.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-icon">
-                        <i class="ri-global-fill"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3 class="timeline-year">2023</h3>
-                        <p class="timeline-description">Expanded services to East and Central Africa, delivering over 200 projects.</p>
+                    
+                    <!-- Contact Form & Map -->
+                    <div class="contact-form-map">
+                        <div class="contact-form-card">
+                            <h3 class="contact-form-title">Send Us a Message</h3>
+                            
+                            <form id="contact-form" class="contact-form">
+                                <div class="contact-form-grid">
+                                    <div>
+                                        <label for="contact-name" class="form-label">Your Name</label>
+                                        <input type="text" id="contact-name" name="contact-name" class="form-input" placeholder="John Smith" required aria-required="true">
+                                    </div>
+                                    <div>
+                                        <label for="contact-email" class="form-label">Email Address</label>
+                                        <input type="email" id="contact-email" name="contact-email" class="form-input" placeholder="john@example.com" required aria-required="true">
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <label for="contact-subject" class="form-label">Subject</label>
+                                    <input type="text" id="contact-subject" name="contact-subject" class="form-input" placeholder="How can we help you?" required aria-required="true">
+                                </div>
+                                
+                                <div>
+                                    <label for="contact-message" class="form-label">Your Message</label>
+                                    <textarea id="contact-message" name="contact-message" rows="4" class="form-textarea" placeholder="Please type your message here..." required aria-required="true"></textarea>
+                                </div>
+                                
+                                <div>
+                                    <button type="submit" class="submit-button">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                        
+                        <div class="contact-map">
+                            <div class="map-placeholder" role="region" aria-label="Map placeholder"></div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
@@ -401,21 +657,13 @@
             <div class="footer-grid">
                 <!-- Company Info -->
                 <div>
-                    <a href="index.html" class="footer-logo"><img src="images/logo.png" alt="steel axis logo" height="50px"> Steel Axis</a>
+                    <a href="index.html" class="footer-logo"><img src="images/logo.png" alt="Steel Axis Engineering Ltd Logo" height="50px" loading="lazy"> Steel Axis</a>
                     <p class="footer-description">Providing innovative engineering solutions for industrial clients across East and Central Africa since 2017. Committed to quality, safety, and sustainability.</p>
                     <div class="footer-social">
-                        <a href="#" class="footer-social-link">
-                            <i class="ri-linkedin-fill"></i>
-                        </a>
-                        <a href="#" class="footer-social-link">
-                            <i class="ri-twitter-x-fill"></i>
-                        </a>
-                        <a href="#" class="footer-social-link">
-                            <i class="ri-facebook-fill"></i>
-                        </a>
-                        <a href="#" class="footer-social-link">
-                            <i class="ri-instagram-fill"></i>
-                        </a>
+                        <a href="#" class="footer-social-link" aria-label="Follow us on LinkedIn"><i class="ri-linkedin-fill"></i></a>
+                        <a href="#" class="footer-social-link" aria-label="Follow us on Twitter"><i class="ri-twitter-x-fill"></i></a>
+                        <a href="#" class="footer-social-link" aria-label="Follow us on Facebook"><i class="ri-facebook-fill"></i></a>
+                        <a href="#" class="footer-social-link" aria-label="Follow us on Instagram"><i class="ri-instagram-fill"></i></a>
                     </div>
                 </div>
                 
@@ -426,9 +674,9 @@
                         <li><a href="about.html" class="footer-link">About Us</a></li>
                         <li><a href="index.html#services" class="footer-link">Our Services</a></li>
                         <li><a href="index.html#projects" class="footer-link">Projects</a></li>
-                        <li><a href="#" class="footer-link">News & Insights</a></li>
+                        <li><a href="index.html#news" class="footer-link">News & Insights</a></li>
                         <li><a href="#" class="footer-link">Careers</a></li>
-                        <li><a href="index.html#contact" class="footer-link">Contact Us</a></li>
+                        <li><a href="#contact" class="footer-link">Contact Us</a></li>
                     </ul>
                 </div>
                 
@@ -436,22 +684,22 @@
                 <div>
                     <h3 class="footer-title">Our Services</h3>
                     <ul class="footer-links">
-                        <li><a href="#" class="footer-link">Mechanical Engineering</a></li>
-                        <li><a href="#" class="footer-link">Electrical Solutions</a></li>
-                        <li><a href="#" class="footer-link">Industrial Automation</a></li>
-                        <li><a href="#" class="footer-link">Turnkey Projects</a></li>
-                        <li><a href="#" class="footer-link">Feed Processing Machines</a></li>
-                        <li><a href="#" class="footer-link">Personal Protective Equipment</a></li>
+                        <li><a href="engineering.html#mechanical-installations" class="footer-link">Mechanical Engineering</a></li>
+                        <li><a href="engineering.html#electrical-solutions" class="footer-link">Electrical Solutions</a></li>
+                        <li><a href="engineering.html#industrial-automation" class="footer-link">Industrial Automation</a></li>
+                        <li><a href="products.html#turnkey-projects" class="footer-link">Turnkey Projects</a></li>
+                        <li><a href="products.html#feed-processing-machines" class="footer-link">Feed Processing Machines</a></li>
+                        <li><a href="ppe.html" class="footer-link">Personal Protective Equipment</a></li>
                     </ul>
                 </div>
                 
                 <!-- Newsletter -->
                 <div>
                     <h3 class="footer-title">Newsletter</h3>
-                    <p class="footer-newsletter-text">Subscribe to our newsletter to receive the latest updates and industry insights.</p>
+                    <p class="footer-newsletter-text">Subscribe to our newsletter for the latest updates on engineering solutions in East Africa.</p>
                     <form class="newsletter-form">
                         <div class="newsletter-input-container">
-                            <input type="email" placeholder="Your email address" class="newsletter-input">
+                            <input type="email" placeholder="Your email address" class="newsletter-input" required aria-required="true">
                             <button type="submit" class="newsletter-button">Subscribe</button>
                         </div>
                     </form>
@@ -488,12 +736,11 @@
             </div>
         </div>
     </footer>
-    <!-- Floating WhatsApp Button -->
-        <a href="https://wa.me/254748411810?text=Hello%20Steel%20Axis,%20I%20would%20like%20to%20inquire%20about%20your%20services!" class="whatsapp-button" target="_blank">
-            <i class="ri-whatsapp-fill ri-2x"></i>
-            <span class="whatsapp-tooltip">Chat with us on WhatsApp</span>
-        </a>
 
-    
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/254748411810?text=Hello%20Steel%20Axis,%20I%20would%20like%20to%20learn%20more%20about%20your%20company!" class="whatsapp-button" target="_blank" aria-label="Chat with us on WhatsApp">
+        <i class="ri-whatsapp-fill ri-2x"></i>
+        <span class="whatsapp-tooltip">Chat with us on WhatsApp</span>
+    </a>
 </body>
 </html>

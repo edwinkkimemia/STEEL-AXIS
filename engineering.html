@@ -3,7 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Steel Axis Engineering Ltd - Home</title>
+    <meta name="description" content="Steel Axis Engineering Ltd offers top-tier engineering services in East Africa, including mechanical installations, industrial automation, and electrical solutions in Kenya. Contact us in Nairobi for expert engineering support.">
+    <meta name="keywords" content="mechanical installations Kenya, industrial automation East Africa, electrical solutions Nairobi, engineering services Kenya">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Steel Axis Engineering Ltd">
+    <!-- Open Graph for Social Sharing -->
+    <meta property="og:title" content="Engineering Services in East Africa | Steel Axis Engineering Ltd">
+    <meta property="og:description" content="Discover our engineering services in Kenya, including mechanical installations, industrial automation, and electrical solutions for East and Central Africa.">
+    <meta property="og:image" content="images/engineering-hero.jpg">
+    <meta property="og:url" content="https://www.steelaxisltd.com/engineering.html">
+    <meta property="og:type" content="website">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Engineering Services in East Africa | Steel Axis Engineering Ltd">
+    <meta name="twitter:description" content="Discover our engineering services in Kenya, including mechanical installations, industrial automation, and electrical solutions for East and Central Africa.">
+    <meta name="twitter:image" content="images/engineering-hero.jpg">
+    <title>Engineering Services in East Africa | Steel Axis Engineering Ltd</title>
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@300;400;600&display=swap" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" as="style">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
@@ -11,57 +30,102 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Steel Axis Engineering Ltd",
+        "url": "https://www.steelaxisltd.com",
+        "logo": "https://www.steelaxisltd.com/images/logo.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+254748411810",
+            "contactType": "customer service",
+            "areaServed": ["KE", "UG", "TZ", "RW", "BI"],
+            "availableLanguage": "English"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "P.O. Box 254748411810-0200",
+            "addressLocality": "Nairobi",
+            "addressCountry": "KE"
+        },
+        "sameAs": [
+            "https://www.linkedin.com/company/steel-axis-engineering-ltd",
+            "https://twitter.com/steelaxisltd",
+            "https://www.facebook.com/steelaxisltd",
+            "https://www.instagram.com/steelaxisltd"
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Engineering Services",
+        "provider": {
+            "@type": "Organization",
+            "name": "Steel Axis Engineering Ltd"
+        },
+        "areaServed": {
+            "@type": "Place",
+            "name": "East and Central Africa"
+        },
+        "description": "Expert engineering services in Kenya, including mechanical installations, industrial automation, and electrical solutions for industrial clients in East Africa."
+    }
+    </script>
 </head>
 <body>
     <!-- Header & Navigation -->
     <header class="header">
         <div class="topbar d-flex align-items-center">
             <div class="container d-flex justify-content-center justify-content-md-between">
-              <div class="contact-info d-flex align-items-center">
-                <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:info@steelaxisltd.com">info@steelaxisltd.com</a></i>
-                <i class="bi bi-phone d-flex align-items-center ms-4"><span>+254 748 411 810</span></i>
-              </div>
-              <div class="social-links d-none d-md-flex align-items-center">
-                <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-              </div>
+                <div class="contact-info d-flex align-items-center">
+                    <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:info@steelaxisltd.com">info@steelaxisltd.com</a></i>
+                    <i class="bi bi-phone d-flex align-items-center ms-4"><span><a href="tel:+254748411810">+254 748 411 810</a></span></i>
+                </div>
+                <div class="social-links d-none d-md-flex align-items-center">
+                    <a href="#" class="twitter" aria-label="Follow us on Twitter"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="facebook" aria-label="Follow us on Facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="instagram" aria-label="Follow us on Instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="linkedin" aria-label="Follow us on LinkedIn"><i class="bi bi-linkedin"></i></a>
+                </div>
             </div>
         </div>
         <div class="container">
             <div class="header-content">
                 <div class="logo-container">
                     <a href="index.html" class="logo plus">
-                        <img src="images/logo.png" alt="steel axis logo" height="50px"> Steel Axis
+                        <img src="images/logo.png" alt="Steel Axis Engineering Ltd Logo" height="50px"> Steel Axis
                     </a>
                 </div>
                 
                 <!-- Desktop Navigation -->
-                <nav class="nav-desktop">
+                <nav class="nav-desktop" aria-label="Main navigation">
                     <div class="nav-item">
-                        <button class="nav-button">
+                        <button class="nav-button" aria-expanded="false" aria-controls="engineering-dropdown">
                             Engineering Services
                             <div class="icon-container">
                                 <i class="ri-arrow-down-s-line"></i>
                             </div>
                         </button>
-                        <div class="dropdown">
+                        <div class="dropdown" id="engineering-dropdown">
                             <div class="dropdown-content">
-                                <a href="engineering.html#mechanical-installations" class="dropdown-item">Mechanical Installations</a>
-                                <a href="engineering.html#electrical-solutions" class="dropdown-item">Electrical Solutions</a>
-                                <a href="engineering.html#industrial-automation" class="dropdown-item">Industrial Automation</a>
+                                <a href="#mechanical-installations" class="dropdown-item">Mechanical Installations</a>
+                                <a href="#electrical-solutions" class="dropdown-item">Electrical Solutions</a>
+                                <a href="#industrial-automation" class="dropdown-item">Industrial Automation</a>
                             </div>
                         </div>
                     </div>
                     <div class="nav-item">
-                        <button class="nav-button">
+                        <button class="nav-button" aria-expanded="false" aria-controls="fabrication-dropdown">
                             Fabrication
                             <div class="icon-container">
                                 <i class="ri-arrow-down-s-line"></i>
                             </div>
                         </button>
-                        <div class="dropdown">
+                        <div class="dropdown" id="fabrication-dropdown">
                             <div class="dropdown-content">
                                 <a href="fabrication.html#steel-fabrication" class="dropdown-item">Steel Fabrication</a>
                                 <a href="fabrication.html#conveying-systems" class="dropdown-item">Conveying Systems</a>
@@ -70,13 +134,13 @@
                         </div>
                     </div>
                     <div class="nav-item">
-                        <button class="nav-button">
+                        <button class="nav-button" aria-expanded="false" aria-controls="products-dropdown">
                             Products
                             <div class="icon-container">
                                 <i class="ri-arrow-down-s-line"></i>
                             </div>
                         </button>
-                        <div class="dropdown">
+                        <div class="dropdown" id="products-dropdown">
                             <div class="dropdown-content">
                                 <a href="products.html#feed-processing-machines" class="dropdown-item">Feed Processing Machines</a>
                                 <a href="ppe.html" class="dropdown-item">Personal Protective Equipment</a>
@@ -86,7 +150,7 @@
                     </div>
                     <a href="index.html#projects" class="nav-link">Projects</a>
                     <a href="about.html" class="nav-link">About Us</a>
-                    <a href="index.html#contact" class="nav-link">Contact</a>
+                    <a href="#contact" class="nav-link">Contact</a>
                 </nav>
                 
                 <div class="quote-button-container">
@@ -95,7 +159,7 @@
                 
                 <!-- Mobile menu button -->
                 <div class="mobile-menu-button-container">
-                    <button id="mobile-menu-button" class="mobile-menu-button">
+                    <button id="mobile-menu-button" class="mobile-menu-button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle mobile menu">
                         <div class="icon-container-large">
                             <i class="ri-menu-line ri-lg"></i>
                         </div>
@@ -104,233 +168,752 @@
             </div>
             
             <!-- Mobile Navigation -->
-            <div id="mobile-menu" class="nav-mobile">
+            <nav id="mobile-menu" class="nav-mobile hidden" aria-label="Mobile navigation">
                 <a href="engineering.html" class="nav-mobile-link">Engineering Services</a>
                 <a href="fabrication.html" class="nav-mobile-link">Fabrication</a>
                 <a href="products.html" class="nav-mobile-link">Products</a>
-                <a href="#projects" class="nav-mobile-link">Projects</a>
+                <a href="index.html#projects" class="nav-mobile-link">Projects</a>
                 <a href="about.html" class="nav-mobile-link">About Us</a>
                 <a href="#contact" class="nav-mobile-link">Contact</a>
                 <div class="nav-mobile-quote">
                     <a href="#quote" class="quote-button-mobile">Get a Quote</a>
                 </div>
-            </div>
+            </nav>
         </div>
     </header>
 
-    <!-- Mechanical Installations Section -->
-    <section id="mechanical-installations" class="services-section">
-        <div class="container">
-            <div class="services-header">
-                <h2 class="section-title">Mechanical Installations</h2>
-                <p class="section-description">Steel Axis Engineering Ltd, based in Nairobi, Kenya since 2017, specializes in mechanical installations across East and Central Africa. We provide expert services for packaging machinery, HVAC systems, chillers, and industrial utilities, ensuring optimal performance and safety for our clients.</p>
-            </div>
-            
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://via.placeholder.com/640x360?text=Mechanical+Installation+1" alt="Mechanical Installation 1">
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/engineering-hero.jpg');">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Expert <span style="color:#F28C39;">Engineering Services</span> in East Africa</h1>
+                    <p class="hero-description">Steel Axis Engineering Ltd, based in Nairobi, Kenya, delivers top-tier mechanical installations, industrial automation, and electrical solutions across East and Central Africa since 2017.</p>
+                    <div class="hero-buttons">
+                        <a href="#mechanical-installations" class="hero-button-services">Explore Engineering Services</a>
+                        <a href="#contact" class="hero-button-contact">Contact Us Now</a>
                     </div>
-                    <h3 class="service-title">Packaging Machinery Setup</h3>
-                    <p class="service-description">Installation and maintenance of advanced packaging machinery for industrial plants.</p>
-                    <a href="index.html#quote" class="service-link">Request a Quote <i class="ri-arrow-right-line"></i></a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://via.placeholder.com/640x360?text=Mechanical+Installation+2" alt="Mechanical Installation 2">
-                    </div>
-                    <h3 class="service-title">HVAC System Installation</h3>
-                    <p class="service-description">Efficient HVAC systems for industrial and commercial facilities, ensuring optimal air quality.</p>
-                    <a href="index.html#quote" class="service-link">Request a Quote <i class="ri-arrow-right-line"></i></a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://via.placeholder.com/640x360?text=Mechanical+Installation+3" alt="Mechanical Installation 3">
-                    </div>
-                    <h3 class="service-title">Chiller Installation</h3>
-                    <p class="service-description">Reliable chiller systems for cooling in industrial applications, maintaining operational efficiency.</p>
-                    <a href="index.html#quote" class="service-link">Request a Quote <i class="ri-arrow-right-line"></i></a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://via.placeholder.com/640x360?text=Mechanical+Installation+4" alt="Mechanical Installation 4">
-                    </div>
-                    <h3 class="service-title">Utility Piping Works</h3>
-                    <p class="service-description">Comprehensive piping solutions for industrial utilities, ensuring seamless operations.</p>
-                    <a href="index.html#quote" class="service-link">Request a Quote <i class="ri-arrow-right-line"></i></a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://via.placeholder.com/640x360?text=Mechanical+Installation+5" alt="Mechanical Installation 5">
-                    </div>
-                    <h3 class="service-title">Maintenance Services</h3>
-                    <p class="service-description">Regular maintenance of mechanical systems to ensure longevity and performance.</p>
-                    <a href="index.html#quote" class="service-link">Request a Quote <i class="ri-arrow-right-line"></i></a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://via.placeholder.com/640x360?text=Mechanical+Installation+6" alt="Mechanical Installation 6">
-                    </div>
-                    <h3 class="service-title">Custom Mechanical Solutions</h3>
-                    <p class="service-description">Tailored mechanical installations to meet specific industrial requirements.</p>
-                    <a href="index.html#quote" class="service-link">Request a Quote <i class="ri-arrow-right-line"></i></a>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Industrial Automation Section -->
-    <section id="industrial-automation" class="services-section">
-        <div class="container">
-            <div class="services-header">
-                <h2 class="section-title">Industrial Automation</h2>
-                <p class="section-description">Since 2017, Steel Axis Engineering Ltd has been a leader in industrial automation across East and Central Africa. From our base in Nairobi, Kenya, we deliver advanced automation solutions, including the design, modeling, and supply of conveying systems, to optimize operations for industries throughout the region.</p>
+        <!-- Intro Section -->
+        <section class="intro-section">
+            <div class="container">
+                <p>Need reliable engineering services in East Africa? Steel Axis Engineering Ltd specializes in mechanical installations, industrial automation, and electrical solutions, serving industries in Kenya, Uganda, and beyond from our Nairobi base since 2017.</p>
             </div>
-            
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://via.placeholder.com/640x360?text=Industrial+Automation+1" alt="Industrial Automation 1">
-                    </div>
-                    <h3 class="service-title">Conveyor System Design</h3>
-                    <p class="service-description">Custom conveyor systems designed for efficient material handling in industrial settings.</p>
-                    <a href="index.html#quote" class="service-link">Request a Quote <i class="ri-arrow-right-line"></i></a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://via.placeholder.com/640x360?text=Industrial+Automation+2" alt="Industrial Automation 2">
-                    </div>
-                    <h3 class="service-title">Automation Modeling</h3>
-                    <p class="service-description">Detailed modeling of automation systems to ensure seamless integration and performance.</p>
-                    <a href="index.html#quote" class="service-link">Request a Quote <i class="ri-arrow-right-line"></i></a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://via.placeholder.com/640x360?text=Industrial+Automation+3" alt="Industrial Automation 3">
-                    </div>
-                    <h3 class="service-title">Robotic Automation</h3>
-                    <p class="service-description">Integration of robotic systems to enhance productivity in manufacturing processes.</p>
-                    <a href="index.html#quote" class="service-link">Request a Quote <i class="ri-arrow-right-line"></i></a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://via.placeholder.com/640x360?text=Industrial+Automation+4" alt="Industrial Automation 4">
-                    </div>
-                    <h3 class="service-title">PLC Programming</h3>
-                    <p class="service-description">Programmable Logic Controller (PLC) programming for precise control of industrial processes.</p>
-                    <a href="index.html#quote" class="service-link">Request a Quote <i class="ri-arrow-right-line"></i></a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://via.placeholder.com/640x360?text=Industrial+Automation+5" alt="Industrial Automation 5">
-                    </div>
-                    <h3 class="service-title">SCADA Systems</h3>
-                    <p class="service-description">Supervisory Control and Data Acquisition (SCADA) systems for real-time monitoring and control.</p>
-                    <a href="index.html#quote" class="service-link">Request a Quote <i class="ri-arrow-right-line"></i></a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://via.placeholder.com/640x360?text=Industrial+Automation+6" alt="Industrial Automation 6">
-                    </div>
-                    <h3 class="service-title">Automated Workflow Solutions</h3>
-                    <p class="service-description">Custom solutions to automate workflows, improving efficiency and reducing downtime.</p>
-                    <a href="index.html#quote" class="service-link">Request a Quote <i class="ri-arrow-right-line"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Electrical Solutions Section -->
-    <section id="electrical-solutions" class="services-section">
-        <div class="container">
-            <div class="services-header">
-                <h2 class="section-title">Electrical Solutions</h2>
-                <p class="section-description">Steel Axis Engineering Ltd, founded in 2017 and based in Nairobi, Kenya, offers comprehensive electrical solutions across East and Central Africa. We provide full life-cycle services, including rewiring, fault finding, and maintenance, for industrial, commercial, and residential applications.</p>
+        <!-- Mechanical Installations Section -->
+        <section id="mechanical-installations" class="services-section">
+            <div class="container">
+                <header class="services-header">
+                    <h2 class="section-title">Mechanical Installations in Kenya</h2>
+                    <p class="section-description">Steel Axis Engineering Ltd, based in Nairobi, Kenya since 2017, specializes in mechanical installations across East and Central Africa. We provide expert services for packaging machinery, HVAC systems, chillers, and industrial utilities, ensuring optimal performance and safety for our clients.</p>
+                </header>
+                
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/640x360?text=Mechanical+Installation+1" alt="Packaging Machinery Setup in Kenya" class="project-image" loading="lazy">
+                        </div>
+                        <h3 class="service-title">Packaging Machinery Setup</h3>
+                        <p class="service-description">Installation and maintenance of advanced packaging machinery for industrial plants in East Africa.</p>
+                        <a href="#quote" class="service-link">
+                            Request a Quote for Packaging Machinery Setup
+                            <div class="icon-container">
+                                <i class="ri-arrow-right-line"></i>
+                            </div>
+                        </a>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/640x360?text=Mechanical+Installation+2" alt="HVAC System Installation in Kenya" class="project-image" loading="lazy">
+                        </div>
+                        <h3 class="service-title">HVAC System Installation</h3>
+                        <p class="service-description">Efficient HVAC systems for industrial and commercial facilities, ensuring optimal air quality in Nairobi.</p>
+                        <a href="#quote" class="service-link">
+                            Request a Quote for HVAC System Installation
+                            <div class="icon-container">
+                                <i class="ri-arrow-right-line"></i>
+                            </div>
+                        </a>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/640x360?text=Mechanical+Installation+3" alt="Chiller Installation in East Africa" class="project-image" loading="lazy">
+                        </div>
+                        <h3 class="service-title">Chiller Installation</h3>
+                        <p class="service-description">Reliable chiller systems for cooling in industrial applications, maintaining operational efficiency in Kenya.</p>
+                        <a href="#quote" class="service-link">
+                            Request a Quote for Chiller Installation
+                            <div class="icon-container">
+                                <i class="ri-arrow-right-line"></i>
+                            </div>
+                        </a>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/640x360?text=Mechanical+Installation+4" alt="Utility Piping Works in Kenya" class="project-image" loading="lazy">
+                        </div>
+                        <h3 class="service-title">Utility Piping Works</h3>
+                        <p class="service-description">Comprehensive piping solutions for industrial utilities, ensuring seamless operations in East Africa.</p>
+                        <a href="#quote" class="service-link">
+                            Request a Quote for Utility Piping Works
+                            <div class="icon-container">
+                                <i class="ri-arrow-right-line"></i>
+                            </div>
+                        </a>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/640x360?text=Mechanical+Installation+5" alt="Mechanical Maintenance Services in Kenya" class="project-image" loading="lazy">
+                        </div>
+                        <h3 class="service-title">Maintenance Services</h3>
+                        <p class="service-description">Regular maintenance of mechanical systems to ensure longevity and performance in Nairobi.</p>
+                        <a href="#quote" class="service-link">
+                            Request a Quote for Maintenance Services
+                            <div class="icon-container">
+                                <i class="ri-arrow-right-line"></i>
+                            </div>
+                        </a>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/640x360?text=Mechanical+Installation+6" alt="Custom Mechanical Solutions in Kenya" class="project-image" loading="lazy">
+                        </div>
+                        <h3 class="service-title">Custom Mechanical Solutions</h3>
+                        <p class="service-description">Tailored mechanical installations to meet specific industrial requirements in East Africa.</p>
+                        <a href="#quote" class="service-link">
+                            Request a Quote for Custom Mechanical Solutions
+                            <div class="icon-container">
+                                <i class="ri-arrow-right-line"></i>
+                            </div>
+                        </a>
+                    </article>
+                </div>
             </div>
-            
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://via.placeholder.com/640x360?text=Electrical+Solutions+1" alt="Electrical Solutions 1">
-                    </div>
-                    <h3 class="service-title">Electrical Rewiring</h3>
-                    <p class="service-description">Complete rewiring services for industrial and commercial facilities to ensure safety and reliability.</p>
-                    <a href="index.html#quote" class="service-link">Request a Quote <i class="ri-arrow-right-line"></i></a>
-                </div>
+        </section>
+
+        <!-- Industrial Automation Section -->
+        <section id="industrial-automation" class="services-section">
+            <div class="container">
+                <header class="services-header">
+                    <h2 class="section-title">Industrial Automation in East Africa</h2>
+                    <p class="section-description">Since 2017, Steel Axis Engineering Ltd has been a leader in industrial automation across East and Central Africa. From our base in Nairobi, Kenya, we deliver advanced automation solutions, including the design, modeling, and supply of conveying systems, to optimize operations for industries throughout the region.</p>
+                </header>
                 
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://via.placeholder.com/640x360?text=Electrical+Solutions+2" alt="Electrical Solutions 2">
-                    </div>
-                    <h3 class="service-title">Fault Finding</h3>
-                    <p class="service-description">Expert fault diagnosis and repair for electrical systems to minimize downtime.</p>
-                    <a href="index.html#quote" class="service-link">Request a Quote <i class="ri-arrow-right-line"></i></a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://via.placeholder.com/640x360?text=Electrical+Solutions+3" alt="Electrical Solutions 3">
-                    </div>
-                    <h3 class="service-title">Electrical Maintenance</h3>
-                    <p class="service-description">Routine maintenance of electrical systems to ensure long-term performance and safety.</p>
-                    <a href="index.html#quote" class="service-link">Request a Quote <i class="ri-arrow-right-line"></i></a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://via.placeholder.com/640x360?text=Electrical+Solutions+4" alt="Electrical Solutions 4">
-                    </div>
-                    <h3 class="service-title">Power System Upgrades</h3>
-                    <p class="service-description">Upgrades to power systems, including smart monitoring for improved reliability.</p>
-                    <a href="index.html#quote" class="service-link">Request a Quote <i class="ri-arrow-right-line"></i></a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://via.placeholder.com/640x360?text=Electrical+Solutions+5" alt="Electrical Solutions 5">
-                    </div>
-                    <h3 class="service-title">Lighting Solutions</h3>
-                    <p class="service-description">Energy-efficient lighting installations for industrial and commercial spaces.</p>
-                    <a href="index.html#quote" class="service-link">Request a Quote <i class="ri-arrow-right-line"></i></a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://via.placeholder.com/640x360?text=Electrical+Solutions+6" alt="Electrical Solutions 6">
-                    </div>
-                    <h3 class="service-title">Electrical Design</h3>
-                    <p class="service-description">Custom electrical design for industrial applications, ensuring compliance and efficiency.</p>
-                    <a href="index.html#quote" class="service-link">Request a Quote <i class="ri-arrow-right-line"></i></a>
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/640x360?text=Industrial+Automation+1" alt="Conveyor System Design in Kenya" class="project-image" loading="lazy">
+                        </div>
+                        <h3 class="service-title">Conveyor System Design</h3>
+                        <p class="service-description">Custom conveyor systems designed for efficient material handling in industrial settings in East Africa.</p>
+                        <a href="#quote" class="service-link">
+                            Request a Quote for Conveyor System Design
+                            <div class="icon-container">
+                                <i class="ri-arrow-right-line"></i>
+                            </div>
+                        </a>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/640x360?text=Industrial+Automation+2" alt="Automation Modeling in Kenya" class="project-image" loading="lazy">
+                        </div>
+                        <h3 class="service-title">Automation Modeling</h3>
+                        <p class="service-description">Detailed modeling of automation systems to ensure seamless integration and performance in Nairobi.</p>
+                        <a href="#quote" class="service-link">
+                            Request a Quote for Automation Modeling
+                            <div class="icon-container">
+                                <i class="ri-arrow-right-line"></i>
+                            </div>
+                        </a>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/640x360?text=Industrial+Automation+3" alt="Robotic Automation in East Africa" class="project-image" loading="lazy">
+                        </div>
+                        <h3 class="service-title">Robotic Automation</h3>
+                        <p class="service-description">Integration of robotic systems to enhance productivity in manufacturing processes in Kenya.</p>
+                        <a href="#quote" class="service-link">
+                            Request a Quote for Robotic Automation
+                            <div class="icon-container">
+                                <i class="ri-arrow-right-line"></i>
+                            </div>
+                        </a>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/640x360?text=Industrial+Automation+4" alt="PLC Programming in Kenya" class="project-image" loading="lazy">
+                        </div>
+                        <h3 class="service-title">PLC Programming</h3>
+                        <p class="service-description">Programmable Logic Controller (PLC) programming for precise control of industrial processes in East Africa.</p>
+                        <a href="#quote" class="service-link">
+                            Request a Quote for PLC Programming
+                            <div class="icon-container">
+                                <i class="ri-arrow-right-line"></i>
+                            </div>
+                        </a>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/640x360?text=Industrial+Automation+5" alt="SCADA Systems in Kenya" class="project-image" loading="lazy">
+                        </div>
+                        <h3 class="service-title">SCADA Systems</h3>
+                        <p class="service-description">Supervisory Control and Data Acquisition (SCADA) systems for real-time monitoring and control in Nairobi.</p>
+                        <a href="#quote" class="service-link">
+                            Request a Quote for SCADA Systems
+                            <div class="icon-container">
+                                <i class="ri-arrow-right-line"></i>
+                            </div>
+                        </a>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/640x360?text=Industrial+Automation+6" alt="Automated Workflow Solutions in Kenya" class="project-image" loading="lazy">
+                        </div>
+                        <h3 class="service-title">Automated Workflow Solutions</h3>
+                        <p class="service-description">Custom solutions to automate workflows, improving efficiency and reducing downtime in East Africa.</p>
+                        <a href="#quote" class="service-link">
+                            Request a Quote for Automated Workflow Solutions
+                            <div class="icon-container">
+                                <i class="ri-arrow-right-line"></i>
+                            </div>
+                        </a>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <!-- Electrical Solutions Section -->
+        <section id="electrical-solutions" class="services-section">
+            <div class="container">
+                <header class="services-header">
+                    <h2 class="section-title">Electrical Solutions in Nairobi</h2>
+                    <p class="section-description">Steel Axis Engineering Ltd, founded in 2017 and based in Nairobi, Kenya, offers comprehensive electrical solutions across East and Central Africa. We provide full life-cycle services, including rewiring, fault finding, and maintenance, for industrial, commercial, and residential applications.</p>
+                </header>
+                
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/640x360?text=Electrical+Solutions+1" alt="Electrical Rewiring in Kenya" class="project-image" loading="lazy">
+                        </div>
+                        <h3 class="service-title">Electrical Rewiring</h3>
+                        <p class="service-description">Complete rewiring services for industrial and commercial facilities to ensure safety and reliability in East Africa.</p>
+                        <a href="#quote" class="service-link">
+                            Request a Quote for Electrical Rewiring
+                            <div class="icon-container">
+                                <i class="ri-arrow-right-line"></i>
+                            </div>
+                        </a>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/640x360?text=Electrical+Solutions+2" alt="Electrical Fault Finding in Kenya" class="project-image" loading="lazy">
+                        </div>
+                        <h3 class="service-title">Fault Finding</h3>
+                        <p class="service-description">Expert fault diagnosis and repair for electrical systems to minimize downtime in Nairobi.</p>
+                        <a href="#quote" class="service-link">
+                            Request a Quote for Fault Finding
+                            <div class="icon-container">
+                                <i class="ri-arrow-right-line"></i>
+                            </div>
+                        </a>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/640x360?text=Electrical+Solutions+3" alt="Electrical Maintenance in East Africa" class="project-image" loading="lazy">
+                        </div>
+                        <h3 class="service-title">Electrical Maintenance</h3>
+                        <p class="service-description">Routine maintenance of electrical systems to ensure long-term performance and safety in Kenya.</p>
+                        <a href="#quote" class="service-link">
+                            Request a Quote for Electrical Maintenance
+                            <div class="icon-container">
+                                <i class="ri-arrow-right-line"></i>
+                            </div>
+                        </a>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/640x360?text=Electrical+Solutions+4" alt="Power System Upgrades in Kenya" class="project-image" loading="lazy">
+                        </div>
+                        <h3 class="service-title">Power System Upgrades</h3>
+                        <p class="service-description">Upgrades to power systems, including smart monitoring for improved reliability in East Africa.</p>
+                        <a href="#quote" class="service-link">
+                            Request a Quote for Power System Upgrades
+                            <div class="icon-container">
+                                <i class="ri-arrow-right-line"></i>
+                            </div>
+                        </a>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/640x360?text=Electrical+Solutions+5" alt="Lighting Solutions in Kenya" class="project-image" loading="lazy">
+                        </div>
+                        <h3 class="service-title">Lighting Solutions</h3>
+                        <p class="service-description">Energy-efficient lighting installations for industrial and commercial spaces in Nairobi.</p>
+                        <a href="#quote" class="service-link">
+                            Request a Quote for Lighting Solutions
+                            <div class="icon-container">
+                                <i class="ri-arrow-right-line"></i>
+                            </div>
+                        </a>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img src="https://via.placeholder.com/640x360?text=Electrical+Solutions+6" alt="Electrical Design in Kenya" class="project-image" loading="lazy">
+                        </div>
+                        <h3 class="service-title">Electrical Design</h3>
+                        <p class="service-description">Custom electrical design for industrial applications, ensuring compliance and efficiency in East Africa.</p>
+                        <a href="#quote" class="service-link">
+                            Request a Quote for Electrical Design
+                            <div class="icon-container">
+                                <i class="ri-arrow-right-line"></i>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="services-cta">
+                    <a href="index.html#services" class="view-all-button">Explore All Services</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sustainability Section -->
+        <section class="sustainability-section">
+            <div class="container">
+                <div class="sustainability-content">
+                    <div class="sustainability-text">
+                        <h2 class="section-title">Sustainability in Engineering</h2>
+                        <p class="section-description">At Steel Axis, we prioritize sustainability by integrating energy-efficient solutions and eco-friendly practices in our engineering services, ensuring quality while reducing environmental impact across East Africa.</p>
+                        <div class="sustainability-stats">
+                            <div class="stat-card">
+                                <p class="stat-value">70%</p>
+                                <p class="stat-description">Energy Efficiency Achieved</p>
+                            </div>
+                            <div class="stat-card">
+                                <p class="stat-value">50%</p>
+                                <p class="stat-description">Waste Reduction</p>
+                            </div>
+                            <div class="stat-card">
+                                <p class="stat-value">100%</p>
+                                <p class="stat-description">Safety Standards Met</p>
+                            </div>
+                            <div class="stat-card">
+                                <p class="stat-value">400+</p>
+                                <p class="stat-description">Projects Delivered</p>
+                            </div>
+                        </div>
+                        <a href="about.html" class="sustainability-button">Learn More About Our Commitment</a>
+                    </div>
+                    <div class="sustainability-image">
+                        <img src="images/sustainability.jpg" alt="Sustainability Efforts by Steel Axis in Engineering" class="sustainability-img" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section">
+            <div class="container">
+                <header class="testimonials-header">
+                    <h2 class="section-title">What Our Clients Say About Our Engineering Services</h2>
+                    <p class="section-description">Hear from our satisfied clients who trust Steel Axis for their engineering needs in Kenya and East Africa.</p>
+                </header>
+                
+                <div class="testimonials-container">
+                    <div class="testimonials-slider" id="testimonials-slider">
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-icon">
+                                    <div class="icon-container">
+                                        <i class="ri-double-quotes-l ri-3x"></i>
+                                    </div>
+                                </div>
+                                <p class="testimonial-text">"Steel Axis installed an efficient HVAC system for our factory in Nairobi. Their expertise is exceptional!"</p>
+                                <div class="testimonial-author">
+                                    <img src="images/author1.jpg" alt="Client John Kamau" class="author-image" loading="lazy">
+                                    <div>
+                                        <p class="author-name">John Kamau</p>
+                                        <p class="author-title">Factory Manager, Nairobi</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-icon">
+                                    <div class="icon-container">
+                                        <i class="ri-double-quotes-l ri-3x"></i>
+                                    </div>
+                                </div>
+                                <p class="testimonial-text">"Their industrial automation solutions have transformed our operations in Kampala. Highly recommend Steel Axis!"</p>
+                                <div class="testimonial-author">
+                                    <img src="images/author2.jpg" alt="Client Sarah Auma" class="author-image" loading="lazy">
+                                    <div>
+                                        <p class="author-name">Sarah Auma</p>
+                                        <p class="author-title">Operations Manager, Kampala</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-icon">
+                                    <div class="icon-container">
+                                        <i class="ri-double-quotes-l ri-3x"></i>
+                                    </div>
+                                </div>
+                                <p class="testimonial-text">"Steel Axis handled our electrical rewiring in Dar es Salaam with precision and professionalism."</p>
+                                <div class="testimonial-author">
+                                    <img src="images/author3.jpg" alt="Client Peter Ochieng" class="author-image" loading="lazy">
+                                    <div>
+                                        <p class="author-name">Peter Ochieng</p>
+                                        <p class="author-title">Plant Manager, Dar es Salaam</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonials-navigation">
+                        <button id="prev-testimonial" class="testimonial-nav-button" aria-label="Previous testimonial">
+                            <div class="icon-container">
+                                <i class="ri-arrow-left-s-line"></i>
+                            </div>
+                        </button>
+                        <div class="testimonial-dots">
+                            <button class="testimonial-dot active" aria-label="Go to testimonial 1"></button>
+                            <button class="testimonial-dot" aria-label="Go to testimonial 2"></button>
+                            <button class="testimonial-dot" aria-label="Go to testimonial 3"></button>
+                        </div>
+                        <button id="next-testimonial" class="testimonial-nav-button" aria-label="Next testimonial">
+                            <div class="icon-container">
+                                <i class="ri-arrow-right-s-line"></i>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section class="news-section">
+            <div class="container">
+                <header class="news-header">
+                    <h2 class="section-title">Latest News on Engineering Solutions</h2>
+                    <p class="section-description">Stay updated with the latest insights and updates on engineering services in East Africa.</p>
+                </header>
+                
+                <div class="news-grid">
+                    <div class="news-card">
+                        <img src="images/news1.jpg" alt="Trends in Mechanical Installations Kenya 2025" class="news-image" loading="lazy">
+                        <div class="news-content">
+                            <div class="news-meta">
+                                <span class="news-date">May 10, 2025</span>
+                                <span class="news-divider">|</span>
+                                <span class="news-tag">Mechanical Installations</span>
+                            </div>
+                            <h3 class="news-title">Trends in Mechanical Installations for 2025</h3>
+                            <p class="news-description">Discover the latest trends in mechanical installations by Steel Axis in Kenya.</p>
+                            <a href="#" class="news-link">
+                                Read More
+                                <div class="icon-container">
+                                    <i class="ri-arrow-right-line"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="news-card">
+                        <img src="images/news2.jpg" alt="Industrial Automation Innovations in East Africa" class="news-image" loading="lazy">
+                        <div class="news-content">
+                            <div class="news-meta">
+                                <span class="news-date">April 15, 2025</span>
+                                <span class="news-divider">|</span>
+                                <span class="news-tag">Industrial Automation</span>
+                            </div>
+                            <h3 class="news-title">Innovations in Industrial Automation</h3>
+                            <p class="news-description">Learn how Steel Axis is advancing industrial automation in East Africa.</p>
+                            <a href="#" class="news-link">
+                                Read More
+                                <div class="icon-container">
+                                    <i class="ri-arrow-right-line"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="news-card">
+                        <img src="images/news3.jpg" alt="Electrical Solutions Efficiency in Nairobi" class="news-image" loading="lazy">
+                        <div class="news-content">
+                            <div class="news-meta">
+                                <span class="news-date">March 20, 2025</span>
+                                <span class="news-divider">|</span>
+                                <span class="news-tag">Electrical Solutions</span>
+                            </div>
+                            <h3 class="news-title">Enhancing Efficiency with Electrical Solutions</h3>
+                            <p class="news-description">Explore how Steel Axis improves electrical system efficiency in Nairobi.</p>
+                            <a href="#" class="news-link">
+                                Read More
+                                <div class="icon-container">
+                                    <i class="ri-arrow-right-line"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-view-all">
+                    <a href="index.html#news" class="view-all-button">View All News</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section class="video-section">
+            <div class="container">
+                <header class="video-header">
+                    <h2 class="section-title">Why Choose Steel Axis Engineering?</h2>
+                    <p class="section-description">Watch this video to learn more about our expertise in mechanical installations, industrial automation, and electrical solutions in East Africa.</p>
+                </header>
+                <div class="video-container">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Steel Axis Engineering Overview Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Get a Quote Section -->
+        <section id="quote" class="quote-section">
+            <div class="container">
+                <div class="quote-container">
+                    <header class="quote-header">
+                        <h2 class="section-title">Get a Free Quote for Engineering Services</h2>
+                        <p class="section-description">Fill out the form below to receive a customized quote for your engineering project in East Africa within 24 hours.</p>
+                    </header>
+                    
+                    <form id="quote-form" class="quote-form">
+                        <div class="quote-form-grid">
+                            <div>
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" id="name" name="name" class="form-input" placeholder="John Smith" required aria-required="true">
+                            </div>
+                            <div>
+                                <label for="company" class="form-label">Company Name</label>
+                                <input type="text" id="company" name="company" class="form-input" placeholder="Your Company Ltd." required aria-required="true">
+                            </div>
+                            <div>
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" id="email" name="email" class="form-input" placeholder="john@example.com" required aria-required="true">
+                            </div>
+                            <div>
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-input" placeholder="+254 748 411 810" required aria-required="true">
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label class="form-label">Service Type</label>
+                            <div class="service-checkboxes">
+                                <div class="checkbox-item">
+                                    <div id="mechanical-installations-checkbox" class="custom-checkbox" data-checked="false" role="checkbox" aria-checked="false"></div>
+                                    <label for="mechanical-installations-checkbox" class="checkbox-label">Mechanical Installations</label>
+                                </div>
+                                <div class="checkbox-item">
+                                    <div id="industrial-automation-checkbox" class="custom-checkbox" data-checked="false" role="checkbox" aria-checked="false"></div>
+                                    <label for="industrial-automation-checkbox" class="checkbox-label">Industrial Automation</label>
+                                </div>
+                                <div class="checkbox-item">
+                                    <div id="electrical-solutions-checkbox" class="custom-checkbox" data-checked="false" role="checkbox" aria-checked="false"></div>
+                                    <label for="electrical-solutions-checkbox" class="checkbox-label">Electrical Solutions</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label for="project-details" class="form-label">Project Details</label>
+                            <textarea id="project-details" name="project-details" rows="4" class="form-textarea" placeholder="Please provide details about your project requirements..." required aria-required="true"></textarea>
+                        </div>
+                        
+                        <div class="terms-checkbox">
+                            <div id="terms-checkbox" class="custom-checkbox" data-checked="false" role="checkbox" aria-checked="false"></div>
+                            <label for="terms-checkbox" class="checkbox-label">I agree to the <a href="#" class="terms-link">Terms & Conditions</a> and <a href="#" class="terms-link">Privacy Policy</a></label>
+                        </div>
+                        
+                        <div class="form-submit">
+                            <button type="submit" class="submit-button">Submit Your Request</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <header class="contact-header">
+                    <h2 class="section-title">Contact Us for Engineering Solutions</h2>
+                    <p class="section-description">Have questions about our engineering services in East Africa? Our Nairobi-based team is ready to assist you with your industrial needs.</p>
+                </header>
+                
+                <div class="contact-grid">
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <div class="contact-info-card">
+                            <h3 class="contact-info-title">Get In Touch</h3>
+                            
+                            <div class="contact-info-items">
+                                <div class="contact-info-item">
+                                    <div class="contact-icon">
+                                        <div class="icon-container">
+                                            <i class="ri-map-pin-line"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h4 class="contact-info-subtitle">Our Location</h4>
+                                        <p class="contact-info-text">P.O. Box 254748411810-0200, Nairobi, Kenya</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-info-item">
+                                    <div class="contact-icon">
+                                        <div class="icon-container">
+                                            <i class="ri-phone-line"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h4 class="contact-info-subtitle">Phone Number</h4>
+                                        <p class="contact-info-text"><a href="tel:+254748411810">+254 748 411 810</a></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-info-item">
+                                    <div class="contact-icon">
+                                        <div class="icon-container">
+                                            <i class="ri-mail-line"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h4 class="contact-info-subtitle">Email Address</h4>
+                                        <p class="contact-info-text"><a href="mailto:info@steelaxisltd.com">info@steelaxisltd.com</a></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-info-item">
+                                    <div class="contact-icon">
+                                        <div class="icon-container">
+                                            <i class="ri-time-line"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h4 class="contact-info-subtitle">Working Hours</h4>
+                                        <p class="contact-info-text">Monday - Friday: 8:00 AM - 5:00 PM<br>Saturday: 9:00 AM - 1:00 PM<br>Sunday: Closed</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-social">
+                                <h4 class="contact-social-title">Follow Us</h4>
+                                <div class="social-links">
+                                    <a href="#" class="social-link" aria-label="Follow us on LinkedIn">
+                                        <div class="icon-container">
+                                            <i class="ri-linkedin-fill"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="social-link" aria-label="Follow us on Twitter">
+                                        <div class="icon-container">
+                                            <i class="ri-twitter-x-fill"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="social-link" aria-label="Follow us on Facebook">
+                                        <div class="icon-container">
+                                            <i class="ri-facebook-fill"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="social-link" aria-label="Follow us on Instagram">
+                                        <div class="icon-container">
+                                            <i class="ri-instagram-fill"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form & Map -->
+                    <div class="contact-form-map">
+                        <div class="contact-form-card">
+                            <h3 class="contact-form-title">Send Us a Message</h3>
+                            
+                            <form id="contact-form" class="contact-form">
+                                <div class="contact-form-grid">
+                                    <div>
+                                        <label for="contact-name" class="form-label">Your Name</label>
+                                        <input type="text" id="contact-name" name="contact-name" class="form-input" placeholder="John Smith" required aria-required="true">
+                                    </div>
+                                    <div>
+                                        <label for="contact-email" class="form-label">Email Address</label>
+                                        <input type="email" id="contact-email" name="contact-email" class="form-input" placeholder="john@example.com" required aria-required="true">
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <label for="contact-subject" class="form-label">Subject</label>
+                                    <input type="text" id="contact-subject" name="contact-subject" class="form-input" placeholder="How can we help you?" required aria-required="true">
+                                </div>
+                                
+                                <div>
+                                    <label for="contact-message" class="form-label">Your Message</label>
+                                    <textarea id="contact-message" name="contact-message" rows="4" class="form-textarea" placeholder="Please type your message here..." required aria-required="true"></textarea>
+                                </div>
+                                
+                                <div>
+                                    <button type="submit" class="submit-button">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                        
+                        <div class="contact-map">
+                            <div class="map-placeholder" role="region" aria-label="Map placeholder"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
+                <!-- Company Info -->
                 <div>
-                    <a href="index.html" class="footer-logo"><img src="images/logo.png" alt="steel axis logo" height="50px"> Steel Axis</a>
+                    <a href="index.html" class="footer-logo"><img src="images/logo.png" alt="Steel Axis Engineering Ltd Logo" height="50px" loading="lazy"> Steel Axis</a>
                     <p class="footer-description">Providing innovative engineering solutions for industrial clients across East and Central Africa since 2017. Committed to quality, safety, and sustainability.</p>
                     <div class="footer-social">
-                        <a href="#" class="footer-social-link"><i class="ri-linkedin-fill"></i></a>
-                        <a href="#" class="footer-social-link"><i class="ri-twitter-x-fill"></i></a>
-                        <a href="#" class="footer-social-link"><i class="ri-facebook-fill"></i></a>
-                        <a href="#" class="footer-social-link"><i class="ri-instagram-fill"></i></a>
+                        <a href="#" class="footer-social-link" aria-label="Follow us on LinkedIn"><i class="ri-linkedin-fill"></i></a>
+                        <a href="#" class="footer-social-link" aria-label="Follow us on Twitter"><i class="ri-twitter-x-fill"></i></a>
+                        <a href="#" class="footer-social-link" aria-label="Follow us on Facebook"><i class="ri-facebook-fill"></i></a>
+                        <a href="#" class="footer-social-link" aria-label="Follow us on Instagram"><i class="ri-instagram-fill"></i></a>
                     </div>
                 </div>
                 
+                <!-- Quick Links -->
                 <div>
                     <h3 class="footer-title">Quick Links</h3>
                     <ul class="footer-links">
@@ -339,28 +922,30 @@
                         <li><a href="index.html#projects" class="footer-link">Projects</a></li>
                         <li><a href="index.html#news" class="footer-link">News & Insights</a></li>
                         <li><a href="#" class="footer-link">Careers</a></li>
-                        <li><a href="index.html#contact" class="footer-link">Contact Us</a></li>
+                        <li><a href="#contact" class="footer-link">Contact Us</a></li>
                     </ul>
                 </div>
                 
+                <!-- Services -->
                 <div>
                     <h3 class="footer-title">Our Services</h3>
                     <ul class="footer-links">
-                        <li><a href="#" class="footer-link">Mechanical Engineering</a></li>
-                        <li><a href="#" class="footer-link">Electrical Solutions</a></li>
-                        <li><a href="#" class="footer-link">Industrial Automation</a></li>
-                        <li><a href="#" class="footer-link">Turnkey Projects</a></li>
-                        <li><a href="#" class="footer-link">Feed Processing Machines</a></li>
-                        <li><a href="#" class="footer-link">Personal Protective Equipment</a></li>
+                        <li><a href="#mechanical-installations" class="footer-link">Mechanical Engineering</a></li>
+                        <li><a href="#electrical-solutions" class="footer-link">Electrical Solutions</a></li>
+                        <li><a href="#industrial-automation" class="footer-link">Industrial Automation</a></li>
+                        <li><a href="products.html#turnkey-projects" class="footer-link">Turnkey Projects</a></li>
+                        <li><a href="products.html#feed-processing-machines" class="footer-link">Feed Processing Machines</a></li>
+                        <li><a href="ppe.html" class="footer-link">Personal Protective Equipment</a></li>
                     </ul>
                 </div>
                 
+                <!-- Newsletter -->
                 <div>
                     <h3 class="footer-title">Newsletter</h3>
-                    <p class="footer-newsletter-text">Subscribe to our newsletter to receive the latest updates and industry insights.</p>
+                    <p class="footer-newsletter-text">Subscribe to our newsletter for the latest updates on engineering solutions in East Africa.</p>
                     <form class="newsletter-form">
                         <div class="newsletter-input-container">
-                            <input type="email" placeholder="Your email address" class="newsletter-input">
+                            <input type="email" placeholder="Your email address" class="newsletter-input" required aria-required="true">
                             <button type="submit" class="newsletter-button">Subscribe</button>
                         </div>
                     </form>
@@ -399,7 +984,7 @@
     </footer>
 
     <!-- Floating WhatsApp Button -->
-    <a href="https://wa.me/254748411810?text=Hello%20Steel%20Axis,%20I%20would%20like%20to%20inquire%20about%20your%20services!" class="whatsapp-button" target="_blank">
+    <a href="https://wa.me/254748411810?text=Hello%20Steel%20Axis,%20I%20would%20like%20to%20inquire%20about%20your%20engineering%20services!" class="whatsapp-button" target="_blank" aria-label="Chat with us on WhatsApp">
         <i class="ri-whatsapp-fill ri-2x"></i>
         <span class="whatsapp-tooltip">Chat with us on WhatsApp</span>
     </a>
